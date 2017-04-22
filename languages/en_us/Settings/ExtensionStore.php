@@ -1,12 +1,8 @@
 <?php
-/*+***********************************************************************************
- * The contents of this file are subject to the vtiger CRM Public License Version 1.0
- * ("License"); You may not use this file except in compliance with the License
- * The Original Code is:  vtiger CRM Open Source
- * The Initial Developer of the Original Code is vtiger.
- * Portions created by vtiger are Copyright (C) vtiger.
- * All Rights Reserved.
- *************************************************************************************/
+/* 
+* Copyright (C) www.vtiger.com. All rights reserved.
+* @license Proprietary
+*/
 $languageStrings = array(
 	'LBL_PUBLISHER' => 'Publisher',
 	'LBL_LICENSE' => 'License',
@@ -26,7 +22,6 @@ $languageStrings = array(
 	'LBL_INSTALLATION_LOG' => 'Installation Log',
 	'LBL_UPDATED_MODULE' => ' module was updated successfully.',
 	'LBL_UPDATING_MODULE' => 'Updating Module',
-    'LBL_MARKET_PLACE' => 'Market Place',
     
         //Extension Store translations
         'LBL_VTIGER_EXTENSION_STORE' => 'Vtiger Extension Store',
@@ -70,7 +65,7 @@ $languageStrings = array(
         'Install' => 'Install',
         'Upgrade' => 'Upgrade',
         'LBL_RATE_IT' => 'Rate it.',
-        'LBL_UNINSTALL' => 'Uninstall',
+        'LBL_UNINSTALL' => 'UnInstall',
         'LBL_LAUNCH' => 'Launch',
         'LBL_SIGN_UP_FOR_FREE' => 'Sign up for free',
         'LBL_EMAIL_ADDRESS' => 'Email address',
@@ -98,6 +93,7 @@ $languageStrings = array(
         'LBL_SIGNUP_FOR_MARKET_PLACE' => 'Signup for Marketplace',
         'LBL_UNAUTHORIZED' => 'Unauthorized',
         'LBL_EXPIRY_DATE'  => 'Expiry Date',
+	'LBL_LOGOUT'  => 'Logout',
     
         'firstname' => 'First Name',
         'lastname' => 'Last Name',
@@ -109,11 +105,6 @@ $languageStrings = array(
         'LBL_WHAT_IS_SECURITY_CODE' => 'What is Security Code ?',
         'LBL_CARD_NUMBER_PLACEHOLDER' => '16 digit number on your card',
         'LBL_SECURITY_CODE_HELP_CONTENT' => 'The CVV Number(Card Verification Value) on your credit/debit card is a 3 digit number on VISA®, MasterCard® etc.. branded credit/debit cards.',
-		'LBL_ENTER_REGISTERED_EMAIL' => 'Enter your registered email',
-		'LBL_RESET_PASSWORD_LINK_EMAILED' => 'Reset Password link emailed to you!',
-		'LBL_FORGOT_PASSWORD' => 'Forgot Password',
-		'LBL_ALREADY_INSTALLED_MODULE_BUILDER' => 'Already created by module builder',
-		'LBL_REVIEW_RESTRICTED' => 'Reviewing restricted',
 );
 $jsLanguageStrings = array(
   'JS_PLEASE_SETUP_CARD_DETAILS_TO_INSTALL_THIS_EXTENSION'  => 'Please setup card details to install this extension',
@@ -126,8 +117,7 @@ $jsLanguageStrings = array(
   'JS_PLEASE_LOGIN_TO_MARKETPLACE_FOR_INSTALLING_EXTENSION' => 'Please login to marketplace for installing extension',
   'JS_PLEASE_SETUP_CARD_DETAILS_TO_INSTALL_EXTENSION' => 'Please setup card details to install extension',
   'JS_PLEASE_LOGIN_TO_MARKETPLACE_FOR_UNINSTALLING_EXTENSION' => 'Please login to marketplace for uninstalling extension',
+  'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_INSTALL_THIS_EXTENSION' => 'Are you sure you want to install this extension?',  
   'JS_CARD_DETAILS_UPDATED' => 'Card details updated!',  
-  'JS_PASSWORDS_MISMATCH' => "Passwords didn't match!",
-  'JS_ARE_YOU_SURE_UNINSTALL' => 'Are you sure you want to uninstall this Extension',
-  'JS_ARE_YOU_SURE_INSTALL' => 'Are you sure you want to install this extension',
+  'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_LOGOUT_FROM_EXTENSION' => 'Are you sure you want to log out from extension?',
 );
