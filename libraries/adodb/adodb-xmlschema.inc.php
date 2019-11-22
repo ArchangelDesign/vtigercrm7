@@ -157,8 +157,7 @@ class dbObject {
 	* Destroys the object
 	*/
 	function destroy() {
-        ini_set("magic_quotes_runtime", $this->mgq);
-		unset( $this );
+
 	}
 
 	/**
